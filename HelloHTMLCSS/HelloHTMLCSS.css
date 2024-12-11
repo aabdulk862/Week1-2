@@ -27,3 +27,10 @@ p {
     background-color: darkolivegreen;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
+#radioContainer{
+    display:flex; /*this allows us to use flexbox stylings*/
+    flex-direction:column-reverse;
+    align-items: center;
+    gap: 40px;
+}
