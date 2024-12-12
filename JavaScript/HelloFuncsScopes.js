@@ -62,4 +62,36 @@ let b = 10;
 
 console.log(b) //and of course, this prints just fine
 
-console.log("==============================(Local Scope)")
+console.log("==============================(Local Scope - Block scope vs Function scope)")
+
+//block scope----------/
+
+//any variable inside a {BLOCK} that ISN'T a function is "block scoped"
+if(true){
+    var c = "I'm a var in a block - I'm block scoped"
+    let d = "I'm a let in a block - I'm block scoped"
+} 
+
+console.log(c) //vars are globally scoped, so they're visible outside of any block they were defined in
+//console.log(d) //lets and consts are NOT visible outside of any block they were defined in
+
+//function scope------------/
+
+//any variable defined in a function is function scoped
+function scopeTest(){
+    var e = "I am a var in a function - I'm function scoped"
+}
+
+console.log(e)
+
+/* The main difference between block and function scope -
+
+-vars are not visible outside the function they're declared in
+-BUT... vars ARE visible outside of any non-function block they're declared in
+
+-lets and consts are only visible within their block, period
+
+Since we only really use let and const these days, we don't have to worry as much about weird var behavior
+
+also, functions behave similar to vars, they tend to be globally scoped and hoisted. 
+But I like that behavior for functions */
