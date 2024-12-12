@@ -1,5 +1,6 @@
 import './App.css'
 import { FirstComponent } from './Components/FirstComponent'
+import { ParentComponent } from './Components/ParentComponent'
 
 /* The App.tsx is the root of our app (at least when it comes to rendering views on the page) 
 
@@ -20,6 +21,7 @@ function App() {
       {/* This is a comment in TSX. Some custom components below: */}
 
       <FirstComponent/>
+      <ParentComponent/>
  
     </>
   )
