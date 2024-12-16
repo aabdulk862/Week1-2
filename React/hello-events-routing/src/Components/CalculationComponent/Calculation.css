@@ -1,0 +1,11 @@
+.input-container {
+    border-radius: 10%;
+    border-style: groove;
+    border-width: 5px;
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 15%;
+    padding: 15px;
+    background-color: rgb(191, 191, 206);
+    box-shadow: 0 0 100px rgb(40, 34, 155); /* Shadow */
+}

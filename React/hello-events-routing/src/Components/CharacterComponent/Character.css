@@ -1,0 +1,30 @@
+.list-characters{
+    width: 40%;
+}
+
+.character {
+  background-color: #f4f4f4; /* Light gray background */
+  border: 1px solid #535353; /* Subtle border */
+  padding: 15px; /* Padding inside the card */
+  margin-bottom: 15px; /* Space between cards */
+  border-radius: 5px; /* Slightly rounded corners */
+}
+
+.character h3 {
+  color: #333; /* Dark text for name and house */
+  font-size: 1.2rem; /* Medium font size */
+  margin: 0; /* Remove default margin */
+}
+
+.character h4 {
+  color: #666; /* Lighter text for weapon and quote */
+  font-size: 1rem; /* Normal font size */
+  margin: 5px 0; /* Space between the lines */
+}
+
+.character hr {
+  border: 0; /* No border, just a line */
+  border-top: 1px solid #ccc; /* Subtle line separator */
+  margin-top: 10px;
+}
+
